@@ -674,7 +674,6 @@ button {
 
 .modal-field {
   margin-bottom: 8px;
-  width: 100%;
 }
 
 .modal-field-textarea {
@@ -755,7 +754,7 @@ button {
 }
 
 .modal-checkbox-label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   font-size: 12px;
@@ -765,7 +764,7 @@ button {
 }
 
 .modal-checkbox-custom {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
