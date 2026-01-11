@@ -1,5 +1,5 @@
 /* =========================================
-   BASE & RESET 13.0
+   BASE & RESET
    ========================================= */
 :root {
   --cloud: #f4f4fd;
@@ -674,6 +674,7 @@ button {
 
 .modal-field {
   margin-bottom: 8px;
+  width: 100%;
 }
 
 .modal-field-textarea {
@@ -764,7 +765,7 @@ button {
 }
 
 .modal-checkbox-custom {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
