@@ -1,5 +1,5 @@
 /* =========================================
-   BASE & RESET 15.1
+   BASE & RESET 16.1
    ========================================= */
 :root {
   --cloud: #f4f4fd;
@@ -580,7 +580,7 @@ button {
 /* =========================================
    MODAL WINDOW (BACKDROP)
    ========================================= */
-.backdrop {
+.modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -596,7 +596,7 @@ button {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-open {
+.modal-backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
