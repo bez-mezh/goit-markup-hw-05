@@ -1,5 +1,5 @@
 /* =========================================
-   BASE & RESET 18.1
+   BASE & RESET
    ========================================= */
 :root {
   --cloud: #f4f4fd;
@@ -20,6 +20,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--slate);
   background-color: var(--white);
