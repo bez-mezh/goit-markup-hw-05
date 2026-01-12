@@ -1,5 +1,5 @@
 /* =========================================
-   BASE & RESET 14.2
+   BASE & RESET 14.3
    ========================================= */
 :root {
   --cloud: #f4f4fd;
@@ -691,6 +691,7 @@ button {
 
 .input-wrap {
   position: relative;
+  width: 100%;
 }
 
 .modal-input {
