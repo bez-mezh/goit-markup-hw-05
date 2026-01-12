@@ -1,5 +1,5 @@
 /* =========================================
-   BASE & RESET 14.7
+   BASE & RESET 15.1
    ========================================= */
 :root {
   --cloud: #f4f4fd;
@@ -600,7 +600,6 @@ button {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  width: 100%;
 }
 
 /* =========================================
@@ -670,7 +669,6 @@ button {
 .modal-form {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .modal-field {
