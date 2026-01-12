@@ -1,5 +1,5 @@
 /* =========================================
-   BASE & RESET 14.1
+   BASE & RESET 14.2
    ========================================= */
 :root {
   --cloud: #f4f4fd;
@@ -754,9 +754,6 @@ button {
 }
 
 .modal-privacy-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
